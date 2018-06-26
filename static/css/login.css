@@ -1,0 +1,29 @@
+h6 {
+  color: #7ed321;
+}
+.input-field {
+  width: 30%;
+  padding-left: 39px;
+  outline: none;
+}
+.icon {
+  padding: 10px;
+  background: #7ed321;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+.second-icon{
+  margin-left: 30px;
+}
+.input-container {
+  display: -ms-flexbox; 
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.div-container{
+  width: 100%;
+  margin-bottom: 15px;
+}
