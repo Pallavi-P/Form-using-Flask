@@ -9,8 +9,8 @@ app.config['SECRET_KEY'] = '7d441f27d441f27567d441f2b6176a'
  
 class ReusableForm(Form):
     name = TextField('Name:', validators=[validators.required()])
-    email = TextField('Email:', validators=[validators.required(), validators.Length(min=6, max=35)])
-    password = TextField('Password:', validators=[validators.required(), validators.Length(min=3, max=35)])
+    email = TextField('Account:', validators=[validators.required(), validators.Length(min=6, max=16)])
+    password = TextField('Mobile:', validators=[validators.required(), validators.Length(min=10, max=12)])
  
  
 @app.route("/", methods=['GET', 'POST'])
@@ -19,11 +19,11 @@ def hello():
  
     print(form.errors)
     if request.method == 'POST':
-        name=request.form['name']
-        password=request.form['password']
-        email=request.form['email']
-        print(name, " ", email, " ", password)
- 
+        account-number=request.form['account-number']
+        full-name=request.form['full-name']
+        fathers-name=request.form['fathers-name']
+        # Take rest values in the same way and print below.
+        print(account, " ", full-name, " ", fathers-name)
         if form.validate():
             # Save the comment here.
             flash('Thanks for registration ' + name)

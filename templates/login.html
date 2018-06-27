@@ -8,66 +8,88 @@
         <meta name="viewport" content = "width=device-width, initial-scale=1.0">
     </head>
     <body>
- 
- 
-<div class="container">
- 
-  <form  action="" method="post" role="form">
-    {{ form.csrf }}
-    <div class="form-group">
-      <h6>Account Number</h6>
-      <div class="input-container">
-        <i class="fa fa-credit-card icon"></i>
-        <input type="text" class="input-field" name="account-number" placeholder="Account Number">
-    </div>
-      <br>
-      <h6>Personal Information</h6>
-      <div class="input-container">
-        <i class="fa fa-user icon"></i>
-        <input type="text" class="input-field" name="full-name" placeholder="Full Name">
-        <i class="fa fa-user icon second-icon"></i>
-        <input type="text" class="input-field" name="fathers-name" placeholder="Father's Name">
-      </div>
+      <table>
+          <col width="15%">
+          <col width="70%">
+          <col width="15%">        
+          <tr>
+            <td>
+              <div>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                      It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+                      It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                  </p>
+              </div>
+            </td>
+            <td>
+              <div class="container">
+              
+                <form  action="" method="post" role="form">
+                  {{ form.csrf }}
+                  <div class="form-group">
+                    <h6>Account Number</h6>
+                    <div class="input-container">
+                      <i class="fa fa-credit-card icon"></i>
+                      <input type="text" class="input-field" name="account-number" placeholder="Account Number">
+                  </div>
+                    <br>
+                    <h6>Personal Information</h6>
+                  <div class="input-container">
+                    <i class="fa fa-user icon"></i>
+                    <input type="text" class="input-field" name="full-name" placeholder="Full Name">
+                    <i class="fa fa-user icon second-icon"></i>
+                    <input type="text" class="input-field" name="fathers-name" placeholder="Father's Name">
+                  </div>
 
-      <div class="input-container">
-        <i class="fa fa-address-book icon"></i>
-        <input type="text" class="input-field" name="permanent-address" placeholder="Permanent Address">
-        <i class="fa fa-address-book icon second-icon"></i>
-        <input type="text" class="input-field" placeholder="Current Address">
-      </div>
+                  <div class="input-container">
+                    <i class="fa fa-address-book icon"></i>
+                    <input type="text" class="input-field" name="permanent-address" placeholder="Permanent Address">
+                    <i class="fa fa-address-book icon second-icon"></i>
+                    <input type="text" class="input-field" placeholder="Current Address">
+                  </div>
 
-      <div class="input-container">
-            <i class="fa fa-id-card icon"></i>
-            <input type="text" class="input-field" name="cibil" placeholder="CIBIL">
-        <i class="fa fa-id-card icon second-icon"></i>
-        <input type="text" class="input-field" name="pan-number" placeholder="Pan Number">
-      </div>
-      <h6>Or upload File  <input type="file" id="myFile"></h6>
-      <br>
-      <div class="form-inline">
-        <h6>Date of Birth</h6>
-        <div class="input-container" style="width:29%;">
-        <i class="fa fa-id-card icon second-icon"></i>
-        <input type="date" name="bday">
-        </div>
-        <h6>Gender</h6>
-        <div class="input-container" style="width:50%;margin-left: 15px;">
-        
-        <input style="margin-left: 10px;" type="radio" name="gender" value="male"> Male
-        <input style="margin-left: 10px;" type="radio" name="gender" value="female"> Female
-        <input style="margin-left: 10px;" type="radio" name="gender" value="other"> Other  
-        </div>
-      </div>
-        <h6>Mobile</h6>
-        <div class="input-container">
-            <i class="fa fa-phone icon"></i>
-            <input type="text" class="input-field" name="mobile-number" placeholder="Mobile Number">
-        </div>
-    </div>
-    <button type="submit" class="btn btn-success">Submit</button>
-  </form>
- 
-
-</div>            
-</body>
+                  <div class="input-container">
+                    <i class="fa fa-id-card icon"></i>
+                    <input type="text" class="input-field" name="cibil" placeholder="CIBIL">
+                    <i class="fa fa-id-card icon second-icon"></i>
+                    <input type="text" class="input-field" name="pan-number" placeholder="Pan Number">
+                  </div>
+                    <h6>Or upload File  <input type="file" id="myFile"></h6>
+                    <br>
+                  <div class="form-inline">
+                    <h6>Date of Birth</h6>
+                    <div class="input-container" style="width:29%;">
+                    <i class="fa fa-id-card icon second-icon"></i>
+                    <input type="date" name="bday">
+                  </div>
+                      <h6>Gender</h6>
+                  <div class="input-container" style="width:50%;margin-left: 15px;">                      
+                    <input style="margin-left: 10px;" type="radio" name="gender" value="male"> Male
+                    <input style="margin-left: 10px;" type="radio" name="gender" value="female"> Female
+                    <input style="margin-left: 10px;" type="radio" name="gender" value="other"> Other  
+                    </div>
+                  </div>
+                      <h6>Mobile</h6>
+                      <div class="input-container">
+                          <i class="fa fa-phone icon"></i>
+                          <input type="text" class="input-field" name="mobile-number" placeholder="Mobile Number">
+                      </div>
+                  </div>
+                  <button type="submit" class="btn btn-success">Submit</button>
+                </form>
+              </div>
+            </td>
+            <td>
+              <div>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                  It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+                  It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                </p>
+              </div>
+            </td>
+        </tr>
+      </table>            
+  </body>
 </html>
